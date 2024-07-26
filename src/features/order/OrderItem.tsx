@@ -1,7 +1,8 @@
 import React from 'react';
 import { formatCurrency } from "../../utils/helpers";
 
-// Interface para um item do pedido
+
+
 interface OrderItemProps {
   item: {
     quantity: number;
