@@ -22,7 +22,7 @@ const formatCurrency = (amount: number): string => {
 };
 
 const MenuItem: React.FC<MenuItemProps> = ({ pizza }) => {
-  const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
+  const {  name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
 
   return (
     <li>
